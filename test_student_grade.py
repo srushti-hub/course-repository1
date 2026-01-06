@@ -28,7 +28,7 @@ def test_main_output(capsys):
 
     # Check that expected details are printed
     assert "--- Student Report ---" in captured.out
-    assert "Name       : sri gouri" in captured.out
+    assert "Name       : "srushti" in captured.out
     assert "Department : BCA" in captured.out
     assert "Semester   : 3" in captured.out
     assert "Marks      : [75, 82, 68]" in captured.out
