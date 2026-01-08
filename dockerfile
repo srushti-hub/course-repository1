@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY student_grade.py .
 
-CMD ["python", "student_grade.py"]
+ENTRYPOINT ["python", "student_grade.py"]
